@@ -24,7 +24,7 @@ export default function EditInvoiceForm({
       message: null,
       errors: {}
     };
-  const [state, formAction] = useActionState(updateInvoiceWithId,initialState);
+  const [, formAction] = useActionState(updateInvoiceWithId,initialState);
 
 
   return (
